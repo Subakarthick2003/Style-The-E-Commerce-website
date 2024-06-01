@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navheader">
+        <h1>Nostra</h1>
+        <div class="navlinks">
+            <p class="navlinks"><a href="index.html">Home</a></p>
+            <p class="navlinks"><a href="Collection.html">Collections</a></p>
+            <p class="navlinks"><a href="Contact.html">Contact</a></p>
+        </div>
+        <div class="navbarmenutoggle" onclick="openmenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side Nav Bar-->
+    <div class="sidenavbar">
+        <p style="text-align: right;" onclick="closemenu()" class="sidebarmenutoggle"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidenavlinks">
+            <p class="sidenavlinks"><a href="index.html">Home</a></p>
+            <p class="sidenavlinks"><a href="Collection.html">Collections</a></p>
+            <p class="sidenavlinks"><a href="Contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="Contact">
+            <div class="contactheader">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="name">
+                <h3>Name :</h3>
+                <input type="text">
+            </div>
+            <div class="email">
+                <h3>Email :</h3>
+                <input type="text">
+            </div>
+            <div class="Discription">
+                <h3>Discription :</h3>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="contactbutton">
+                <button>Submit</button>
+            </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <h1>Nostra</h1>
+        <p>Style is a way to say who you are without having to speak</p>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
